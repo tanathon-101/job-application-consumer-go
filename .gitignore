@@ -1,0 +1,50 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build cache
+*.obj
+*.a
+
+# Output of `go build`
+/bin/
+/build/
+*.o
+
+# Dependency directories (remove if you're using vendoring)
+/vendor/
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+
+# Docker
+**/docker-compose.override.yml
+.docker/
+
+# Go modules and sum files (if you want to regenerate them only on build)
+/go.sum
+
+# Tests
+coverage.out
+*.coverprofile
+
+# Others (optional)
+.env
+.env.*
